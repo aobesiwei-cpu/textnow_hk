@@ -1,0 +1,6 @@
+flask
+pymysql
+dbutils
+requests
+requests[socks]
+paramiko
