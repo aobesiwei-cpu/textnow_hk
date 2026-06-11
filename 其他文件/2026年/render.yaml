@@ -1,0 +1,53 @@
+# Render 部署配置
+# 将此文件放在项目根目录，Render 会自动识别
+
+services:
+  # Web 控制台服务
+  - type: web
+    name: textnow-dashboard
+    runtime: python
+    plan: free
+    buildCommand: pip install -r requirements.txt
+    startCommand: python tn_web_dashboard.py
+    envVars:
+      - key: TN_DB_HOST
+        value: 170.106.106.252
+      - key: TN_DB_PORT
+        value: 13306
+      - key: TN_DB_USER
+        value: root
+      - key: TN_DB_NAME
+        value: textnow
+      - key: TN_WEB_HOST
+        value: 0.0.0.0
+      - key: TN_WEB_PORT
+        value: 10000
+      # 以下需要在 Render 控制台手动设置（敏感信息）
+      # - key: TN_DB_PASS
+      #   sync: false
+      # - key: TN_WEB_PASS
+      #   sync: false
+      # - key: TN_PROXY
+      #   sync: false
+
+  # 客服轮询服务（后台运行）
+  - type: worker
+    name: textnow-service
+    runtime: python
+    plan: free
+    buildCommand: pip install -r requirements.txt
+    startCommand: python tn_customer_service.py
+    envVars:
+      - key: TN_DB_HOST
+        value: 170.106.106.252
+      - key: TN_DB_PORT
+        value: 13306
+      - key: TN_DB_USER
+        value: root
+      - key: TN_DB_NAME
+        value: textnow
+      # 以下需要在 Render 控制台手动设置
+      # - key: TN_DB_PASS
+      #   sync: false
+      # - key: TN_PROXY
+      #   sync: false

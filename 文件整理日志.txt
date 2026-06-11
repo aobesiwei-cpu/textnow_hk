@@ -1,0 +1,25 @@
+文件整理日志 - 开始时间：2026-06-11 21:55:02
+==================================================
+2026-06-11 21:55:02 - 开始整理目录：C:\Users\carti\Documents\textnow
+2026-06-11 21:55:02 - 创建文件夹：C:\Users\carti\Documents\textnow\代码\2026年
+2026-06-11 21:55:02 - 移动文件：deploy_server.py -> C:\Users\carti\Documents\textnow\代码\2026年\deploy_server.py
+2026-06-11 21:55:02 - 创建文件夹：C:\Users\carti\Documents\textnow\其他文件\2026年
+2026-06-11 21:55:02 - 移动文件：docker-build-push.ps1 -> C:\Users\carti\Documents\textnow\其他文件\2026年\docker-build-push.ps1
+2026-06-11 21:55:02 - 移动文件：Dockerfile -> C:\Users\carti\Documents\textnow\其他文件\2026年\Dockerfile
+2026-06-11 21:55:02 - 移动文件：fix_templates.py -> C:\Users\carti\Documents\textnow\代码\2026年\fix_templates.py
+2026-06-11 21:55:02 - 移动文件：fix_templates2.py -> C:\Users\carti\Documents\textnow\代码\2026年\fix_templates2.py
+2026-06-11 21:55:02 - 移动文件：fix_templates3.py -> C:\Users\carti\Documents\textnow\代码\2026年\fix_templates3.py
+2026-06-11 21:55:02 - 移动文件：organize_files.py -> C:\Users\carti\Documents\textnow\代码\2026年\organize_files.py
+2026-06-11 21:55:02 - 移动文件：README.md -> C:\Users\carti\Documents\textnow\其他文件\2026年\README.md
+2026-06-11 21:55:02 - 移动文件：render.yaml -> C:\Users\carti\Documents\textnow\其他文件\2026年\render.yaml
+2026-06-11 21:55:02 - 创建文件夹：C:\Users\carti\Documents\textnow\文档\2026年
+2026-06-11 21:55:02 - 移动文件：requirements.txt -> C:\Users\carti\Documents\textnow\文档\2026年\requirements.txt
+2026-06-11 21:55:02 - 移动文件：test_api.py -> C:\Users\carti\Documents\textnow\代码\2026年\test_api.py
+2026-06-11 21:55:02 - 移动文件：test_conn.py -> C:\Users\carti\Documents\textnow\代码\2026年\test_conn.py
+2026-06-11 21:55:02 - 移动文件：textnow.tar.gz -> C:\Users\carti\Documents\textnow\其他文件\2026年\textnow.tar.gz
+2026-06-11 21:55:02 - 移动文件：tn_config.py -> C:\Users\carti\Documents\textnow\代码\2026年\tn_config.py
+2026-06-11 21:55:02 - 移动文件：tn_customer_service.py -> C:\Users\carti\Documents\textnow\代码\2026年\tn_customer_service.py
+2026-06-11 21:55:02 - 移动文件：tn_db.py -> C:\Users\carti\Documents\textnow\代码\2026年\tn_db.py
+2026-06-11 21:55:02 - 移动文件：tn_ios_register.py -> C:\Users\carti\Documents\textnow\代码\2026年\tn_ios_register.py
+2026-06-11 21:55:02 - 移动文件：tn_web_dashboard.py -> C:\Users\carti\Documents\textnow\代码\2026年\tn_web_dashboard.py
+2026-06-11 21:55:02 - 文件整理完成！

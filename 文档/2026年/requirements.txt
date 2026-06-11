@@ -1,0 +1,15 @@
+# TextNow 客服系统依赖
+
+# 数据库
+pymysql>=1.1.0
+dbutils>=3.0.3
+
+# Web 控制台
+flask>=2.3.0
+
+# 网络请求
+requests>=2.31.0
+requests[socks]>=2.31.0
+
+# 其他
+python-dateutil>=2.8.0
